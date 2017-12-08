@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40DD73F01FDB2CE9006A2545 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD73EF1FDB2CE9006A2545 /* AppDelegate.swift */; };
+		40DD73F21FDB2CE9006A2545 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD73F11FDB2CE9006A2545 /* ViewController.swift */; };
+		40DD73F51FDB2CE9006A2545 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DD73F31FDB2CE9006A2545 /* Main.storyboard */; };
+		40DD73F71FDB2CE9006A2545 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40DD73F61FDB2CE9006A2545 /* Assets.xcassets */; };
+		40DD73FA1FDB2CE9006A2545 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40DD73F81FDB2CE9006A2545 /* LaunchScreen.storyboard */; };
+		40DD74051FDB2CE9006A2545 /* Conversor_de_distanciasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD74041FDB2CE9006A2545 /* Conversor_de_distanciasTests.swift */; };
+		40DD74101FDB2CE9006A2545 /* Conversor_de_distanciasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DD740F1FDB2CE9006A2545 /* Conversor_de_distanciasUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40DD74011FDB2CE9006A2545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40DD73E41FDB2CE9006A2545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40DD73EB1FDB2CE9006A2545;
+			remoteInfo = "Conversor de distancias";
+		};
+		40DD740C1FDB2CE9006A2545 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40DD73E41FDB2CE9006A2545 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40DD73EB1FDB2CE9006A2545;
+			remoteInfo = "Conversor de distancias";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		40DD73EC1FDB2CE9006A2545 /* Conversor de distancias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conversor de distancias.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DD73EF1FDB2CE9006A2545 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40DD73F11FDB2CE9006A2545 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40DD73F41FDB2CE9006A2545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40DD73F61FDB2CE9006A2545 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40DD73F91FDB2CE9006A2545 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40DD73FB1FDB2CE9006A2545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40DD74001FDB2CE9006A2545 /* Conversor de distanciasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conversor de distanciasTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DD74041FDB2CE9006A2545 /* Conversor_de_distanciasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversor_de_distanciasTests.swift; sourceTree = "<group>"; };
+		40DD74061FDB2CE9006A2545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40DD740B1FDB2CE9006A2545 /* Conversor de distanciasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conversor de distanciasUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40DD740F1FDB2CE9006A2545 /* Conversor_de_distanciasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversor_de_distanciasUITests.swift; sourceTree = "<group>"; };
+		40DD74111FDB2CE9006A2545 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40DD73E91FDB2CE9006A2545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DD73FD1FDB2CE9006A2545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DD74081FDB2CE9006A2545 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40DD73E31FDB2CE9006A2545 = {
+			isa = PBXGroup;
+			children = (
+				40DD73EE1FDB2CE9006A2545 /* Conversor de distancias */,
+				40DD74031FDB2CE9006A2545 /* Conversor de distanciasTests */,
+				40DD740E1FDB2CE9006A2545 /* Conversor de distanciasUITests */,
+				40DD73ED1FDB2CE9006A2545 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40DD73ED1FDB2CE9006A2545 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40DD73EC1FDB2CE9006A2545 /* Conversor de distancias.app */,
+				40DD74001FDB2CE9006A2545 /* Conversor de distanciasTests.xctest */,
+				40DD740B1FDB2CE9006A2545 /* Conversor de distanciasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40DD73EE1FDB2CE9006A2545 /* Conversor de distancias */ = {
+			isa = PBXGroup;
+			children = (
+				40DD73EF1FDB2CE9006A2545 /* AppDelegate.swift */,
+				40DD73F11FDB2CE9006A2545 /* ViewController.swift */,
+				40DD73F31FDB2CE9006A2545 /* Main.storyboard */,
+				40DD73F61FDB2CE9006A2545 /* Assets.xcassets */,
+				40DD73F81FDB2CE9006A2545 /* LaunchScreen.storyboard */,
+				40DD73FB1FDB2CE9006A2545 /* Info.plist */,
+			);
+			path = "Conversor de distancias";
+			sourceTree = "<group>";
+		};
+		40DD74031FDB2CE9006A2545 /* Conversor de distanciasTests */ = {
+			isa = PBXGroup;
+			children = (
+				40DD74041FDB2CE9006A2545 /* Conversor_de_distanciasTests.swift */,
+				40DD74061FDB2CE9006A2545 /* Info.plist */,
+			);
+			path = "Conversor de distanciasTests";
+			sourceTree = "<group>";
+		};
+		40DD740E1FDB2CE9006A2545 /* Conversor de distanciasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40DD740F1FDB2CE9006A2545 /* Conversor_de_distanciasUITests.swift */,
+				40DD74111FDB2CE9006A2545 /* Info.plist */,
+			);
+			path = "Conversor de distanciasUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40DD73EB1FDB2CE9006A2545 /* Conversor de distancias */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DD74141FDB2CE9006A2545 /* Build configuration list for PBXNativeTarget "Conversor de distancias" */;
+			buildPhases = (
+				40DD73E81FDB2CE9006A2545 /* Sources */,
+				40DD73E91FDB2CE9006A2545 /* Frameworks */,
+				40DD73EA1FDB2CE9006A2545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Conversor de distancias";
+			productName = "Conversor de distancias";
+			productReference = 40DD73EC1FDB2CE9006A2545 /* Conversor de distancias.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40DD73FF1FDB2CE9006A2545 /* Conversor de distanciasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DD74171FDB2CE9006A2545 /* Build configuration list for PBXNativeTarget "Conversor de distanciasTests" */;
+			buildPhases = (
+				40DD73FC1FDB2CE9006A2545 /* Sources */,
+				40DD73FD1FDB2CE9006A2545 /* Frameworks */,
+				40DD73FE1FDB2CE9006A2545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40DD74021FDB2CE9006A2545 /* PBXTargetDependency */,
+			);
+			name = "Conversor de distanciasTests";
+			productName = "Conversor de distanciasTests";
+			productReference = 40DD74001FDB2CE9006A2545 /* Conversor de distanciasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40DD740A1FDB2CE9006A2545 /* Conversor de distanciasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40DD741A1FDB2CE9006A2545 /* Build configuration list for PBXNativeTarget "Conversor de distanciasUITests" */;
+			buildPhases = (
+				40DD74071FDB2CE9006A2545 /* Sources */,
+				40DD74081FDB2CE9006A2545 /* Frameworks */,
+				40DD74091FDB2CE9006A2545 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40DD740D1FDB2CE9006A2545 /* PBXTargetDependency */,
+			);
+			name = "Conversor de distanciasUITests";
+			productName = "Conversor de distanciasUITests";
+			productReference = 40DD740B1FDB2CE9006A2545 /* Conversor de distanciasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40DD73E41FDB2CE9006A2545 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Luis;
+				TargetAttributes = {
+					40DD73EB1FDB2CE9006A2545 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					40DD73FF1FDB2CE9006A2545 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40DD73EB1FDB2CE9006A2545;
+					};
+					40DD740A1FDB2CE9006A2545 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40DD73EB1FDB2CE9006A2545;
+					};
+				};
+			};
+			buildConfigurationList = 40DD73E71FDB2CE9006A2545 /* Build configuration list for PBXProject "Conversor de distancias" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40DD73E31FDB2CE9006A2545;
+			productRefGroup = 40DD73ED1FDB2CE9006A2545 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40DD73EB1FDB2CE9006A2545 /* Conversor de distancias */,
+				40DD73FF1FDB2CE9006A2545 /* Conversor de distanciasTests */,
+				40DD740A1FDB2CE9006A2545 /* Conversor de distanciasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40DD73EA1FDB2CE9006A2545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DD73FA1FDB2CE9006A2545 /* LaunchScreen.storyboard in Resources */,
+				40DD73F71FDB2CE9006A2545 /* Assets.xcassets in Resources */,
+				40DD73F51FDB2CE9006A2545 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DD73FE1FDB2CE9006A2545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DD74091FDB2CE9006A2545 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40DD73E81FDB2CE9006A2545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DD73F21FDB2CE9006A2545 /* ViewController.swift in Sources */,
+				40DD73F01FDB2CE9006A2545 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DD73FC1FDB2CE9006A2545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DD74051FDB2CE9006A2545 /* Conversor_de_distanciasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40DD74071FDB2CE9006A2545 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40DD74101FDB2CE9006A2545 /* Conversor_de_distanciasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40DD74021FDB2CE9006A2545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40DD73EB1FDB2CE9006A2545 /* Conversor de distancias */;
+			targetProxy = 40DD74011FDB2CE9006A2545 /* PBXContainerItemProxy */;
+		};
+		40DD740D1FDB2CE9006A2545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40DD73EB1FDB2CE9006A2545 /* Conversor de distancias */;
+			targetProxy = 40DD740C1FDB2CE9006A2545 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40DD73F31FDB2CE9006A2545 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40DD73F41FDB2CE9006A2545 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40DD73F81FDB2CE9006A2545 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40DD73F91FDB2CE9006A2545 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40DD74121FDB2CE9006A2545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40DD74131FDB2CE9006A2545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40DD74151FDB2CE9006A2545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FA623G845M;
+				INFOPLIST_FILE = "Conversor de distancias/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "casita.Conversor-de-distancias";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40DD74161FDB2CE9006A2545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FA623G845M;
+				INFOPLIST_FILE = "Conversor de distancias/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "casita.Conversor-de-distancias";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40DD74181FDB2CE9006A2545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FA623G845M;
+				INFOPLIST_FILE = "Conversor de distanciasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "casita.Conversor-de-distanciasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conversor de distancias.app/Conversor de distancias";
+			};
+			name = Debug;
+		};
+		40DD74191FDB2CE9006A2545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FA623G845M;
+				INFOPLIST_FILE = "Conversor de distanciasTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "casita.Conversor-de-distanciasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conversor de distancias.app/Conversor de distancias";
+			};
+			name = Release;
+		};
+		40DD741B1FDB2CE9006A2545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FA623G845M;
+				INFOPLIST_FILE = "Conversor de distanciasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "casita.Conversor-de-distanciasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Conversor de distancias";
+			};
+			name = Debug;
+		};
+		40DD741C1FDB2CE9006A2545 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FA623G845M;
+				INFOPLIST_FILE = "Conversor de distanciasUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "casita.Conversor-de-distanciasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Conversor de distancias";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40DD73E71FDB2CE9006A2545 /* Build configuration list for PBXProject "Conversor de distancias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DD74121FDB2CE9006A2545 /* Debug */,
+				40DD74131FDB2CE9006A2545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40DD74141FDB2CE9006A2545 /* Build configuration list for PBXNativeTarget "Conversor de distancias" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DD74151FDB2CE9006A2545 /* Debug */,
+				40DD74161FDB2CE9006A2545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40DD74171FDB2CE9006A2545 /* Build configuration list for PBXNativeTarget "Conversor de distanciasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DD74181FDB2CE9006A2545 /* Debug */,
+				40DD74191FDB2CE9006A2545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40DD741A1FDB2CE9006A2545 /* Build configuration list for PBXNativeTarget "Conversor de distanciasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40DD741B1FDB2CE9006A2545 /* Debug */,
+				40DD741C1FDB2CE9006A2545 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40DD73E41FDB2CE9006A2545 /* Project object */;
+}
