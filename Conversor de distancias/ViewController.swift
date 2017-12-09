@@ -32,45 +32,44 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func boton(_ sender: Any) {
-        if txtEntrada.text != ""{
+        if txtEntrada.text != ""{ //Comprobamos que la caja de texto no esté vacía
             let valor: Double = Double(txtEntrada.text!)!
-        
-        
-    
-            if selectOrigen.selectedSegmentIndex != selectDestino.selectedSegmentIndex{
-                //km
+            
+            
+            if selectOrigen.selectedSegmentIndex != selectDestino.selectedSegmentIndex{ //Comprobamos que los dos selectores no estén en la misma unidad
+                // de km
                 if selectOrigen.selectedSegmentIndex == 0{
                     if selectDestino.selectedSegmentIndex == 1{
-                        //millas
+                        // a millas
                         convertir(caso: 0, origen: valor)
                     }else {
-                        //yardas
+                        // a yardas
                         convertir(caso: 1, origen: valor)
                     }
-                //millas
+                //de millas
                 }else if selectOrigen.selectedSegmentIndex == 1{
                     if selectDestino.selectedSegmentIndex == 0{
-                        //km
+                        //a km
                         convertir(caso: 2, origen: valor)
                     }else {
-                        //yardas
+                        //a yardas
                         convertir(caso: 3, origen: valor)
                     }
-                    //yardas
+                //de yardas
                 }else {
                     if selectDestino.selectedSegmentIndex == 0{
-                        //km
+                        //a km
                         convertir(caso: 4, origen: valor)
                     }else {
-                        //millas
+                        //a millas
                         convertir(caso: 5, origen: valor)
                     }
                 }
-            }else {
+            }else { //Los dos selectores tiene la misma unidad
                 lblResultado.text = "No puedes covetir"
                 lblUnidades.text = ""
                 }
-        }else {
+        }else { //La caja de texto está vacia
             lblResultado.text = "Debe de introducir un valor"
             lblUnidades.text = ""
         }
