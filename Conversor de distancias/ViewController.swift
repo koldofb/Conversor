@@ -36,7 +36,7 @@ class ViewController: UIViewController {
             let valor: Double = Double(txtEntrada.text!)!
             
             
-            if selectOrigen.selectedSegmentIndex != selectDestino.selectedSegmentIndex{ //Comprobamos que los dos selectores no estén en la misma unidad
+            if selectOrigen.selectedSegmentIndex != selectDestino.selectedSegmentIndex{ //Comprobamos que los dos selectores no estén en la misma unidad 
                 // de km
                 if selectOrigen.selectedSegmentIndex == 0{
                     if selectDestino.selectedSegmentIndex == 1{
